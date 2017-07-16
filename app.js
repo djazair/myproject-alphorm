@@ -27,7 +27,7 @@ app.use('/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  var err = new Error('Found kies mohamed abdelkader');
+  var err = new Error('kies mohamed abdelkader');
   err.status = 404;
   next(err);
 });

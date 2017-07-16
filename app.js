@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// commit de la branche djazair/myproject-alphorm+2
+// commit de la branche djazair/myproject-alphorm+3
 app.use('/', index);
 app.use('/users', users);
 
